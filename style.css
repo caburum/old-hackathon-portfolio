@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "3270-Regular";
+  src: url("https://cdn.glitch.com/f59aa629-9560-4009-a8ae-90b298ebe02e%2F3270-Regular.ttf?v=1593831201080") format("truetype");
+  src: url("https://cdn.glitch.com/f59aa629-9560-4009-a8ae-90b298ebe02e%2F3270-Regular.woff?v=1593831637028") format("woff"),
+  url("https://cdn.glitch.com/f59aa629-9560-4009-a8ae-90b298ebe02e%2F3270-Regular.otf?v=1593831664140") format("opentype");
+}
+
+body {
+  font-family: "Open Sans", helvetica, arial, sans-serif;
+  margin: 3vw;
+  background-color: #111;
+  color: #EEE;
+}
+
+h1, h2, h3 {
+  font-family: '3270-Regular', Consolas, Courier, mono;
+  color: #2A8B9D;
+  margin: 0;
+  margin-top: 2vh;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+i {
+  color: #2A8B9D;
+}
+
+a {
+  color: #2A8B9D;
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  height: 70vh;
+}
+
+.left, .right {
+  width: 56vw;
+}
+
+.logo {
+  height: 40vh;
+  width: auto;
+  margin: 3vh 0;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  width: 40vh;
+}
